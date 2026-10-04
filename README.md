@@ -1,4 +1,4 @@
-# MediaCrawler GUI
+# Acraw
 
 > 基于 Tkinter 的图形化爬虫控制台，支持 **B站 / 抖音 / 贴吧 / Reddit** 四平台的数据采集、查看、导出与词云生成。
 
@@ -43,7 +43,7 @@
 
 ```bash
 # 1. 克隆本仓库
-git clone https://github.com/0u2y/media-crawler-gui.git
+git clone https://github.com/0u2y/Acraw.git
 cd media-crawler-gui
 
 # 2. 安装依赖
