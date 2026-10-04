@@ -51,4 +51,8 @@ uv pip install jieba wordcloud matplotlib pillow curl-cffi
 
 # 3. 复制配置模板
 cp config.example.json config.json
-# （Windows: copy config.example.json config.json）
+# （Windows: copy config.example.json config.json)
+```
+## 📄 License
+
+本项目采用 [MIT License](LICENSE) 开源协议。
