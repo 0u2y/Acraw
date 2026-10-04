@@ -56,31 +56,33 @@ cp config.example.json config.json
 ---
 
 ###❓ 常见问题
--Q1：双击 exe 黑窗一闪而过
--排查：
+- Q1：双击 exe 黑窗一闪而过
+- 排查：
 
 ```bash
 path.exe
 ```
--或查看 install.log / crash.log。
+- 或查看 install.log / crash.log。
 
--Q2：B站抓取报 code=-352 风控
--原因：IP 被 B站风控。
+- Q2：B站抓取报 code=-352 风控
+- 原因：IP 被 B站风控。
 
--解决：
+- 解决：
 
--点「测试 SESSDATA」确认 SESSDATA 有效
+- 点「测试 SESSDATA」确认 SESSDATA 有效
 
--1.加代理
+- 1.加代理
 
--2.或换 aicu.cc 数据源
+- 2.或换 aicu.cc 数据源
 
--3.或等 10-30 分钟
+- 3.或等 10-30 分钟
 
--Q3：B站 aicu.cc 返回的评论内容为空
--1.解决：更新到最新版，字段已修复（message / time / rank）。
+- Q3：B站 aicu.cc 返回的评论内容为空
+  
+- 1.解决：更新到最新版，字段已修复（message / time / rank）。
 
 -Q4：切换语言后输入框清空
+
 -1.解决：更新到最新版，已保存 9 项 UI 状态。
 
 -Q5：安装依赖失败
@@ -88,6 +90,7 @@ path.exe
 uv pip install -i https://pypi.tuna.tsinghua.edu.cn/simple jieba wordcloud matplotlib pillow
 ```
 -Q6：抖音抓取超时
+
 -解决：
 
 -1.加代理
