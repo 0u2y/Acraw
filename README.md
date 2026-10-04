@@ -43,7 +43,7 @@
 
 ```bash
 # 1. 克隆本仓库
-git clone https://github.com/你的用户名/media-crawler-gui.git
+git clone https://github.com/0u2y/media-crawler-gui.git
 cd media-crawler-gui
 
 # 2. 安装依赖
