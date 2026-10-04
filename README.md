@@ -55,58 +55,59 @@ cp config.example.json config.json
 ```
 ---
 
-###❓ 常见问题
-- Q1：双击 exe 黑窗一闪而过
-- 排查：
+**❓ 常见问题**
+
+**Q1：双击 exe 黑窗一闪而过**
+
+**排查：**
 
 ```bash
 path.exe
 ```
-- 或查看 install.log / crash.log。
+或查看 install.log / crash.log。
 
-- Q2：B站抓取报 code=-352 风控
-- 原因：IP 被 B站风控。
+**Q2：B站抓取报 code=-352 风控**
+原因：IP 被 B站风控。
 
-- 解决：
+**解决：**
 
-- 点「测试 SESSDATA」确认 SESSDATA 有效
+点「测试 SESSDATA」确认 SESSDATA 有效
 
-- 1.加代理
+1.加代理
 
-- 2.或换 aicu.cc 数据源
+2.或换 aicu.cc 数据源
 
-- 3.或等 10-30 分钟
+3.或等 10-30 分钟
 
-- Q3：B站 aicu.cc 返回的评论内容为空
-  
-- 1.解决：更新到最新版，字段已修复（message / time / rank）。
-
--Q4：切换语言后输入框清空
+-Q3：切换语言后输入框清空
 
 -1.解决：更新到最新版，已保存 9 项 UI 状态。
 
--Q5：安装依赖失败
+**Q4：安装依赖失败**
+
 ```bash
 uv pip install -i https://pypi.tuna.tsinghua.edu.cn/simple jieba wordcloud matplotlib pillow
 ```
--Q6：抖音抓取超时
 
--解决：
+**Q5：抖音抓取超时**
 
--1.加代理
+**解决：**
 
--2.加大延迟
+1.加代理
 
--3.确认已扫码登录
+2.加大延迟
 
--Q7：词云中文显示方框
--解决：
+3.确认已扫码登录
 
--1.Windows：安装微软雅黑
+**Q6：词云中文显示方框**
 
--2.Linux：sudo apt install fonts-wqy-microhei
+**解决：**
 
--3.macOS：系统自带 PingFang
+1.Windows：安装微软雅黑
+
+2.Linux：sudo apt install fonts-wqy-microhei
+
+3.macOS：系统自带 PingFang
 
 ---
 
