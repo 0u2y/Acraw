@@ -1,0 +1,13 @@
+{
+  "uv_path": "C:/Users/YourName/.cargo/bin/uv.exe",
+  "project_dir": "C:/path/to/MediaCrawler",
+  "apify_token": "",
+  "bili_proxy": "",
+  "bili_delay": 1.5,
+  "bili_max_pages": 50,
+  "bili_sessdata": "",
+  "bili_jct": "",
+  "bili_source": "aicu",
+  "bili_official_mode": "both",
+  "bili_fetch_sub": false
+}
