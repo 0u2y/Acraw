@@ -79,9 +79,11 @@ path.exe
 
 3.或等 10-30 分钟
 
--Q3：切换语言后输入框清空
+**Q3：切换语言后输入框清空**
 
--1.解决：更新到最新版，已保存 9 项 UI 状态。
+**解决：**
+
+更新到最新版，已保存 9 项 UI 状态。
 
 **Q4：安装依赖失败**
 
@@ -111,16 +113,24 @@ uv pip install -i https://pypi.tuna.tsinghua.edu.cn/simple jieba wordcloud matpl
 
 ---
 
--🔐 安全说明
--措施	              说明
--Token 混淆	SESSDATA / bili_jct / Apify Token 以 XOR + Base64 存储
--路径脱敏	日志中路径显示为 .../最后两级/
--Cookie 脱敏	日志中 SESSDATA=***
--代理 URL 校验	只允许 http/https/socks5/socks5h
--响应大小限制	32 MB 上限
--配置文件原子写	临时文件 + os.replace
--文件权限	0o600（Linux/macOS）
--⚠️ XOR 混淆不是强加密，只防肉眼直读。如需强安全，请使用系统 keyring。
+**🔐 安全说明**
+**措施**	                            **说明**
+
+Token 混淆	  SESSDATA / bili_jct / Apify Token 以 XOR + Base64 存储
+
+路径脱敏	      日志中路径显示为 .../最后两级/
+
+Cookie 脱敏	  日志中 SESSDATA=***
+
+代理 URL 校验	只允许 http/https/socks5/socks5h
+
+响应大小限制	  32 MB 上限
+
+配置文件原子写	临时文件 + os.replace
+
+文件权限	0o600（Linux/macOS）
+
+⚠️ XOR 混淆不是强加密，只防肉眼直读。如需强安全，请使用系统 keyring。
 
 ---
 
